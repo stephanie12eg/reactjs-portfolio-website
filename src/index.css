@@ -11,17 +11,20 @@ body {
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.05em;
   background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-grey);
   line-height: 1.7;
+  background-image: url(../src/Assets/bg-texture.png);
+  background-size: 0.09rem;
 }
 
 :root { 
-  --color-bg: #6c8399;
+  --color-bg: #f2e6d9;
   --color-bg-variant: rgb(116, 176, 198) ;
-  --color-primary: #1ff ;
+  --color-primary: rgb(33, 212, 212) ;
   --color-primary-variant: rgb(128, 223, 239);
   --color-white: #fff;
-  --color-light: rgb(255, 255, 255, 0.6);
+  --color-grey: rgba(54, 54, 54, 0.6);
+  --color-light: rgb(112, 112, 112);
 
   --transition: all 400ms ease;
 
@@ -76,7 +79,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-white);
+  color: var(--color-grey);
 }
 
 .btn {
@@ -88,7 +91,6 @@ a:hover {
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
-
 }
 
 .btn:hover {
