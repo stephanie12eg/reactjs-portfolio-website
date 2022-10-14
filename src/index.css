@@ -18,13 +18,13 @@ body {
 }
 
 :root { 
-  --color-bg: #f2e6d9;
-  --color-bg-variant: rgb(116, 176, 198) ;
-  --color-primary: rgb(33, 212, 212) ;
-  --color-primary-variant: rgb(128, 223, 239);
+  --color-bg: #4f637f;
+  --color-bg-variant: #566881 ;
+  --color-primary: rgb(142, 207, 207) ;
+  --color-primary-variant: rgb(142, 207, 207) ;
   --color-white: #fff;
-  --color-grey: rgba(54, 54, 54, 0.6);
-  --color-light: rgb(112, 112, 112);
+  --color-grey: rgba(169, 169, 169, 0.6);
+  --color-light: rgb(182, 182, 182);
 
   --transition: all 400ms ease;
 
@@ -64,6 +64,7 @@ section > h2,
 section > h3 {
   text-align: center;
   color: var(--color-light);
+  margin-top: 2rem;
 }
 
 section > h2 {
