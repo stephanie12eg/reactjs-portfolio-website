@@ -84,7 +84,7 @@ section > h3 {
 /* Media Queries for small devices*/
 @media screen and (max-width: 600px){
     .about__me {
-        width: 40%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 1rem;
     }
