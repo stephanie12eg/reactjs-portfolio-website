@@ -8,10 +8,10 @@ import {MdOutlineMailOutline} from 'react-icons/md';
 import { useState } from 'react';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#Home')
   return (
     <nav>
-      <a href="# " onClick= {() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href="#Home" onClick= {() => setActiveNav('#Home')} className={activeNav === '#Home' ? 'active' : ''}><AiOutlineHome/></a>
       <a href="#About" onClick= {() => setActiveNav('#About')} className={activeNav === '#About' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#Experience" onClick= {() => setActiveNav('#Experience')} className={activeNav === '#Experience' ? 'active' : ''}><GiBrain/></a>
       <a href="#Portfolio" onClick= {() => setActiveNav('#Portfolio')} className={activeNav === '#Portfolio' ? 'active' : ''}><AiOutlineFolderOpen/></a>

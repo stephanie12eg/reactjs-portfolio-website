@@ -23,8 +23,8 @@ body {
   --color-primary: rgb(142, 207, 207) ;
   --color-primary-variant: rgb(142, 207, 207) ;
   --color-white: #fff;
-  --color-grey: rgba(169, 169, 169, 0.6);
-  --color-light: rgb(182, 182, 182);
+  --color-grey: rgba(189, 189, 189, 0.6);
+  --color-light: rgb(200, 200, 200);
 
   --transition: all 400ms ease;
 
