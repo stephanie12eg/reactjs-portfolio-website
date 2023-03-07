@@ -71,8 +71,8 @@ img {
         height: 15rem;
     }
     .me__background {
-        height: 20rem;
-        width: 20rem;
+        height: 15rem;
+        width: 15em;
     }
 }
 
@@ -82,6 +82,9 @@ img {
         width: 10rem;
         height: 10rem;
     }
-    
+    .me__background {
+        height: 10rem;
+        width: 10rem;
+    }
 
 }
